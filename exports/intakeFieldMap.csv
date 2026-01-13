@@ -1,0 +1,136 @@
+Field Name,Column Letter,Question Label,Section
+clientTimestamp,A,Timestamp,Meta Intake
+clientName,B,Client / Company Name,Meta Intake
+eventName,C,Event or Project Name,Meta Intake
+eventStartDate,D,Date/Time of event start,Meta Intake
+eventEndDate,E,Date/Time of event end,Meta Intake
+eventVenue,F,Venue Name and Full Address,Meta Intake
+eventType,G,Event Type,Meta Intake
+eventFormat,H,What format is your event?,Scheduling/Misc
+eventDuration,I,"How many days will your event run (excluding setup/strike)? Enter a number. Half-days allowed (e.g., 1.5 for a day-and-a-half). Setup and strike days will be quoted separately.",Scheduling/Misc
+guestCount,J,Estimated # of Guests?,Scheduling/Misc
+budgetRange,K,Budget range for this project?,Scheduling/Misc
+setupAccess,M,What day and time will AV crew have access to begin setup at the venue?  ,Scheduling/Misc
+setupCompletion,N,What time must setup be fully completed by?  ,Scheduling/Misc
+setupRushModifier,O,"Will any part of your setup require a rushed or compressed time window?""  ",Scheduling/Misc
+setupPushModifier,P,Do you expect any restrictions during load-in?  ,Scheduling/Misc
+techRunThrough,Q,Are any tech run-throughs scheduled? (Include date & time if known  ,Scheduling/Misc
+rehearsalTrigger,R,Are any rehearsals scheduled? (Include date & time if known)  ,Scheduling/Misc
+eventStartTimes,S,What time does the show start each day?  ,Scheduling/Misc
+eventEndTimes,T,What time does the show end each day?  ,Scheduling/Misc
+teardownAccess,U,What day and time will AV crew have access to begin teardown at the venue?  ,Scheduling/Misc
+teardownCompletion,V,When must teardown be completed and all equipment cleared out of the space?,Scheduling/Misc
+teardownRushModifier,W,Will any part of your strike (teardown) require a rushed or compressed time window?,Scheduling/Misc
+teardownPushModifier,X,Do you expect any restrictions during load-in or load-out?  ,Scheduling/Misc
+macroTechRequest,Y,Will you be needing onsite technical support from our certified AV Technicians?,Scheduling/Misc
+overtimeTrigger,Z,"Will your event require overnight technical support (12am–7am), support during a holiday, or on-call availability? (Check all that apply)",Scheduling/Misc
+salesAssistFlag,AA,Would you like help determining what AV services you'll need?,Scheduling/Misc
+videoTrigger,AB,"Do you need any video support (projectors, screens, IMAG, LED wall)?",Video: General
+videoTechRequested,AC,Will you need a technician on-site to operate video equipment or support playback?,Video: General
+screenNeeded,AD,Will you be needing projection SCREENS for your event?,Video: Screens & Projectors
+ScreenSupportMethod,AE,"Will these screens be ground supported or hung (""flown"") from the ceiling?",Video: Screens & Projectors
+screenCount,AF,How many SCREENS you will need for your event?,Video: Screens & Projectors
+screenSize,AG,What size Screen(s) will do you need?,Video: Screens & Projectors
+screenProjCombo,AH,Would you like us to provide the projectors for these screens?,Video: Screens & Projectors
+projectorNeed,AI,Will you be needing projectors for your own screens or surface?,Video: Screens & Projectors
+projectorCount,AJ,How many Projectors do you need for your event? (not counting breakouts),Video: Screens & Projectors
+projectorSurfaceSize,AK,What size screen or surface will you be projecting onto?,Video: Screens & Projectors
+projectorFR,AL,"Will this be front or rear projection?  
+  (This helps us determine lens type, drape masking, and spatial needs.)  ",Video: Screens & Projectors
+projectorPlacement,AM,"Do you have flexibility in projector placement, or will it be need to be placed at a fixed distance?  (Helps us determine if an adjustable zoom lens will work or if an exact throw distance calculation is required.)  ",Video: Screens & Projectors
+projectorZoom,AN,"If known, how far will the projector be from the screen (in feet)? (Used to calculate required lens ratio based on screen width)  ",Video: Screens & Projectors
+projectorNotes,AO,"Lens Notes (Optional)  
+Share any special lens or placement concerns (e.g. must project from FOH, balcony, rear of room, etc.)",Video: Screens & Projectors
+projectorAmbientLight,AP,How much ambient light does the space have?,Video: Screens & Projectors
+projectorMountMethod,AQ,How will you need your projector supported?,Video: Screens & Projectors
+projectorLumens,AR,"If you know the exact brightness of the projector you need, please list it here (number of lumens)",Video: Screens & Projectors
+tvNeeded,AS,Will you be needing TVs?,Video: TVs
+tvQuantity,AT,How many TVs will you need?,Video: TVs
+tvSize,AU,What size TV(s) do you need?,Video: TVs
+tvMountingMethod,AV,How will the TV(s) be mounted or displayed?,Video: TVs
+confidenceMonitorTrigger,AW,Will you be needing a Confidence Monitor?,Video: Confidence Monitor
+confidenceDisplay,AX,What would you like the confidence monitor(s) to display?,Video: Confidence Monitor
+confidenceViewers,AY,How many presenters will need visibility to the monitor(s) at the same time?,Video: Confidence Monitor
+confidenceMovement,AZ,"Will the presenter(s) be standing, seated, or moving around the stage?",Video: Confidence Monitor
+confidenceZones,BA,Do you expect multiple presentation areas or stage zones?,Video: Confidence Monitor
+confidenceWedge,BB,Would you like the confidence monitor(s) angled upward (floor wedge-style) and shielded from audience view?,Video: Confidence Monitor
+ledWallTrigger,BC,Will you be needing an LED Video Wall?,Video: LED Wall
+ledWallSize,BD,What size LED wall do you envision?,Video: LED Wall
+ledWallQty,BE,How many LED video walls will you need for your event?,Video: LED Wall
+ledWallMount,BF,"Will the LED Wall(s) be ground supported, flown, or not sure yet?",Video: LED Wall
+cameraNeeded,BG,Will you need camera support for IMAG (Image Magnification) or to capture the event?  ,Video: Camera
+camerAngles,BH,How many camera angles would you like to capture?,Video: Camera
+cameraShotTypes,BI,What types of shots would you like to capture? (Check all that apply),Video: Camera
+cameraSupportMethod,BJ,What type of camera support will you need?,Video: Camera
+willRecord,BK,Will your event need to be recorded?,Video: Camera
+willStream,BL,Will any portion of your event be streamed or include remote participants?,Video: Camera
+simultaneousContent,BN,Will any of this content need to be shown at the same time?  ,Video: Camera
+switcherNeeded,BO,Will your event need to switch between different content sources during the program?  ,Video: Camera
+laptopNeeded,BP,"Will we be displaying presentation content from your own laptop(s), or would you like us to provide show-ready laptops?  ",Video: Camera
+showCallerNeeded,BQ,Will you require a showcaller or dedicated cueing technician?  ,Video: Camera
+audioNeeded,BR,"Do you need any audio support (PA system, mics, monitors)?",Audio: General
+audioTechRequested,BS,Will you need a technician on-site to operate audio equipment or assist with microphones?,Audio: General
+audioSources,BT,What will be heard through the sound system?  ,Audio: General
+panelists,BU,Will multiple presenters or panelists speak at the same time?  ,Audio: General
+audioZones,BV,Will sound in the general session need to be heard in multiple areas or zones?  ,Audio: General
+livePerformance,BW,Will there be music or live performance in the general session?  ,Audio: General
+audioSpatial,BX,Will audio be coming from multiple areas on stage or in the room?  ,Audio: General
+houseSystemAvailable,BY,Does the venue have a built-in or house sound system available for your use?,Audio: General
+micsNeeded,BZ,Will you be needing microphones?,Audio: Mics
+micTypes,CA,Which microphone types will you need? (check all that apply),Audio: Mics
+micQtyRange,CB,How many microphones do you anticipate needing?,Audio: Mics
+micQtyExact,CC,How many mics will you need exactly?,Audio: Mics
+soundSystem,CD,Will you be needing a Sound system?,Audio: PA
+audioComponents,CE,What type of audio components will you be needing  ***not counting mics*** (Check all that apply),Audio: PA
+audioRigging,CF,Will the speaker system be ground supported or hung from the ceiling?,Audio: PA
+lightingNeeded,CG,Will the speaker system be ground supported or hung from the ceiling?,Audio: PA
+lightingTechRequested,CH,"Will you need a lighting technician on-site for setup, programming, or show control?",Lighting: General
+lightingTypes,CI,What type of lighting design are you envisioning? (Check all that apply),Lighting: General
+effectLighting,CJ,Does your vision for this event include Effect Lighting?,Lighting: Effects
+goboTrigger,CK,Will you be needing Custom Gobos projection? (this is the name for a custom design i.e. company logo being projected in light on a wall or surface.),Lighting: Effects
+goboProvision,CL,Will you be providing the gobos?,Lighting: Effects
+goboQty,CM,Exactly how many Gobos will you be needing?,Lighting: Effects
+hazeTrigger,CN,Will you be requiring the use of Fog / Haze?,Lighting: Effects
+hazePurpose,CO,Will the Hazer be used to enhance the lighting (ambiance) or for a stage effect (colored fog columns/geysers)?,Lighting: Effects
+hazeVenuePerm,CP,Do you have permission from the venue to use hazers/fog machines?,Lighting: Effects
+hazeSuppression,CQ,Does the venue have fire suppression systems that might be triggered by the use of atmospheric effects?,Lighting: Effects
+laserEffectsNeeded,CR,Will you be using any laser effects or high-intensity beam fixtures?,Lighting: Effects
+movingLights,CS,Will you be needing moving lights for your event?,Lighting: Movers
+movingRiggingMethod,CT,Will the lighting fixtures be ground supported or hung from the ceiling?,Lighting: Movers
+movingSpotTrigger,CU,Will you be needing moving head spot fixtures?,Lighting: Movers
+spotQtyRange,CV,How many moving spots?,Lighting: Movers
+spotQtyExact,CW,How many moving spots do you need exactly?,Lighting: Movers
+movingWashTrigger,CX,Will you be needing moving wash fixtures? ,Lighting: Movers
+washQtyRange,CY,How many moving washes?,Lighting: Movers
+washQtyExact,CZ,How many moving head wash fixtures do you need exactly? ,Lighting: Movers
+stagingTrigger,DA,Will you be needing any staging or soft goods support for this event?  ,Staging & Soft Goods
+existingStage,DB,Is there an existing stage or platform at the venue?,Staging & Soft Goods
+stageType,DC,What type of stage or platform are you envisioning?,Staging & Soft Goods
+stageHeight,DD,What stage height do you anticipate needing?,Staging & Soft Goods
+stageWidth,DE,How wide will the stage be (roughly)?  ,Staging & Soft Goods
+stageDepth,DF,How deep will the stage be (front to back)?,Staging & Soft Goods
+stageAccesories,DG,Will you be needing any of the following stage accesories?  ,Staging & Soft Goods
+pipe&DrapeTrigger,DH,Will you be needing pipe & drape for stage backdrop or room division?  ,Staging & Soft Goods
+pipe&DrapeType,DI,"If pipe & drape is needed, what type?  ",Staging & Soft Goods
+pipe&DrapeFeet,DJ,How many linear feet of pipe & drape do you estimate?  ,Staging & Soft Goods
+stageHandRequested,DK,Will you be needing onsite labor or support to build staging and/or pipe and drape?  ,Staging & Soft Goods
+scenicTrigger,DL,Will you be incorporating any scenic or design elements with your stage?  ,Staging & Soft Goods
+scenicTurnkey,DM,"Would you like CTI to provide a turnkey scenic element service including: creative design, sourcing and set-up?",Staging & Soft Goods
+trussTrigger,DN,"Will you be needing CTI to provide any truss for your event? (hint: if you answered ""flown or hung"" to any of the previous questions... than you will be needing truss!)",Trussing
+trussUse,DO,What will the truss be used to support?  ,Trussing
+trussRigging,DP,How will the truss be supported?  ,Trussing
+trussQtyRange,DQ,How many total feet of truss do you estimate needing?   ,Trussing
+trussQtyExact,DR,How many feet of truss will you need exactly?,Trussing
+trussMotor,DS,"Will you be needing any motors, lifts, or specialty rigging hardware?  ",Trussing
+riggingPlot,DT,Do you have a rigging plot or ceiling diagram available?  ,Trussing
+trussType,DU,What type of truss structure will you be needing? (Check all that apply),Trussing
+breakOutTrigger,DV,Will you be needing AV support in any breakout rooms?,Break Out Rooms
+breakOutRoomQty,DW,How many breakouts rooms will need AV?,Break Out Rooms
+breakOutType,DX,What type of AV support will be needed in your breakout rooms? (Check all that apply),Break Out Rooms
+breakOutLocation,DY,Are the breakout rooms located on the same floor or area?  ,Break Out Rooms
+breakOutSchedule,DZ,Will all breakout rooms have the same schedule and run time?  ,Break Out Rooms
+breakoutSetStrike,EA,Will the breakout AV need to be set up and struck each day?  ,Break Out Rooms
+breakoutVsGeneralSession,EB,Will breakout load-in or load-out happen at a different time than the general session?  ,Break Out Room AV
+exhibitorTrigger,EC,Will there be sponsor booths or vendor tables at this event?,Exhibitor Booth AV
+exhibitorKickBack,ED,Would you like CTI to manage exhibitor AV rentals and provide a revenue share back to the host organization?,Exhibitor Booth AV
+exhibitorBoothCount,EE,How many booths or vendors will be participating?,Exhibitor Booth AV

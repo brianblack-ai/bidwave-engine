@@ -1,0 +1,26 @@
+FieldName,ColumnLetter
+ledWallCount ,A
+ledWallSizeScore,B
+ledMountScore,C 
+setupTimeWindow,D
+setupTimeShortfall,E
+setupRushReadable,F
+setupRushModifier,G
+setupPushReadable,H
+setupPushModifier,I
+ledWallSetupHours,J
+ledWallSetupTechCount,K
+ledWallSetupCost,L
+strikeTimeWindow,M
+strikeTimeShortfall,N
+strikeRushReadable,O
+strikeRushModifier,P
+strikePushReadable,Q
+strikePushModifier,R
+ledWallBreakdownHours,S
+ledWallBreakdownTechCount,T
+ledWallLoadinHours,U
+ledWallLoadoutHours,V
+ledWallLaborCost,W
+ledWallDailyRate,X
+ledWallRentalCost,Y

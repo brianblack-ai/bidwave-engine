@@ -1,0 +1,22 @@
+Field Name,ColumnLetter,Purpose,Example Output,Notes
+gearCount,A,"Number of gear units (e.g. LED walls, screens)",2,Pulled from intake form
+gearSizeScore,B,"Relative size/complexity factor (1=Small, 2=Med, 3=Large)",2,Pulled from intake form / Used to scale setup and labor time. 
+mountScore,C ,"Mounting method factor (1=Simple, 2=Complex)",1,Pulled from intake form / Used for setup time estimation
+setupTimeWindow,D,Displays the number of hours allotted for setup,2.5,Pulled from intake form / Used to calculate setupTimeShortfall
+setupRushReadable,E,Readable rush indicator from intake,Yes – Tight (0.75),For UI clarity
+setupRushModifier,F,Numeric multiplier for tight load-ins,0.75,Modifies setup hours
+setupHours,G,Estimated total hours required for setup,36,Base workload estimation / Used to calculate SetupTimeShortfall
+setupTimeShortfall,H,Difference between expected and available setup time,-46,+ = defecit / - = surplus' / Used to trigger crew inflation if tight
+setupTechCount,I,Number of techs needed for setup,7,"Includes rush & shortfall boost, and safeguards"
+setupHoursPerTech,J,Setup hours per tech,5.14,"Used to validate tech coSetup hours per tech, used for safeguard diagnosticsunt sanity"
+strikeTimeWindow,K,Displays the number of hours allotted for strike,4.25,Pulled from intake form / Used to calculate strrikeTimeShortfall
+strikeTimeShortfall,L,Hours short for strike,36,Similar to setup shortfall logic
+strikeRushReadable,M,Readable rush indicator (strike),Yes – Extremely Tight (0.50),For UI clarity
+strikeRushModifier,N,Numeric modifier for strike rush,0.5,Modifies breakdown hours
+breakdownHours,O,Estimated teardown hours,21.6,"Usually 60% of setup, unless rushed or gear specific ratio"
+breakdownTechCount,P,Number of techs needed for breakdown,5,"Includes strikeRushModifier, shortfall Boost, and lite scheduling safeguards"
+loadinHours,Q,Estimated hours to push/load gear into venue,5.5,Used for ops & logistics planning
+loadoutHours,R,Estimated hours to strike/loadout gear after event,4.2,Typically mirrors load-in with a .7 multiplier unless noted
+ledWallLaborCost,S,"Total labor cost across setup, strike, and load times",22500,
+dailyRate,T,Client-facing day rate per gear unit,7500,Used in pricing logic
+rentalCost,U,Total client-facing rental cost,15000,Count × Daily Rate
