@@ -34,3 +34,4 @@ Scoring
 - micCount: exact if present, else parse range like "3-6" as midpoint, else parse "6+" as 6, else 0
 - micComplexityScore: base 1.0, add 0.25 if headset or earworn, add 0.10 if lav, add 0.05 if handheld
 - audioComplexityScore: use drivers already in the row when available, otherwise derive minimally from micCount and micComplexityScore
+## Setup Hours Logic
